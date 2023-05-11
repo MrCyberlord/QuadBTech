@@ -1,0 +1,49 @@
+.showItem {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    background-color: #a75050;
+    transition: transform 0.3s ease;
+}
+
+.showItem:hover {
+    transform: translateY(-10px);
+}
+
+.showItem img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.showItem h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.showItem p {
+    margin: 0 0 10px;
+    color: #11980f;
+}
+
+.showItem button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #056337;
+    background-color: #d08938;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.showItem button:hover {
+    background-color: #0056b3;
+}
